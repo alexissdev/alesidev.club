@@ -1,0 +1,45 @@
+/* Global settings */
+body {
+    background-color: #1f1026;
+    color: white;
+}
+
+footer {
+    background-color: #150b1a;
+}
+ /* The settings of navigations */
+.navigation-color {
+    background-color: #291533;
+}
+
+.navigation-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.nav-link:hover, .nav-link:focus,
+.navbar-brand:hover, .navbar-brand:focus {
+    color: #610C63;
+}
+
+/* The settings of buttons */
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #291533;
+    --bs-btn-border-color: #291533;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #610C63;
+    --bs-btn-hover-border-color: #291533;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #291533;
+    --bs-btn-active-border-color: #291533;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #291533;
+    --bs-btn-disabled-border-color: #291533;
+}
