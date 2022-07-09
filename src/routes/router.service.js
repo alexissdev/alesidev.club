@@ -23,4 +23,8 @@ router.get("/about", (req, res) => {
     )
 });
 
+router.get("/pay", (req, res) => {
+    res.redirect("https://www.paypal.me/NotCacha");
+});
+
 export default router;
